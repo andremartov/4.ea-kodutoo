@@ -104,6 +104,7 @@ function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("item").value;
   var t = document.createTextNode(inputValue);
+  localStorage.setItem("Tegevus", inputValue);
   li.appendChild(t);
   if (inputValue === '') {
     alert("Ei saa jätta tühjaks!");
@@ -119,6 +120,7 @@ function newElement() {
   span.className = "close";
   span.appendChild(txt);
   li.appendChild(span);
+  
 
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
