@@ -2,6 +2,16 @@
 
 ### Tähtpäev on valitud põhieksamiaeg (25.05 või 31.05)
 
+TODO-LIST
+Andre Martov ja Dennis Richard Šulga
+ 
+Tegemist lihtsa todo listiga, kuhu saab kasutaja lisada tegevusi ja ülesandeid,
+mis oleks vaja ära teha. Tausatal mängib muusika. Ülesande lisamisel listi, käivitub vastav märguanne,
+sama toimub ka ülesande eemaldamisel.
+Kasutatud abimaterjal:
+https://www.w3schools.com/howto/howto_js_todolist.asp
+
+
 ## Nõuded
 
 1. Töö tuleb teha vähemalt kahekesi, eelnevalt kokkuleppel on lubatud ka kolm liiget. GitHub'is peab eristuma, kes mida tegi!
